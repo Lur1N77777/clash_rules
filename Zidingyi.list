@@ -1,6 +1,14 @@
-# 规则名称: Academic_Research_Plus
-# 规则描述: 包含 Web of Science, ScienceDirect, Springer Nature 及通用学术验证
-# 规则统计: 30+
+# 规则名称: Academic_Research_Ultimate
+# 规则描述: 包含 WoS, ScienceDirect, Springer, World Scientific 等
+# 规则统计: 40+
+
+# ==========================================
+# 🟠 World Scientific (世界科技出版)
+# ==========================================
+DOMAIN-SUFFIX,worldscientific.com
+DOMAIN-SUFFIX,worldscinet.com
+DOMAIN-SUFFIX,wspc.com
+DOMAIN-SUFFIX,wspc.com.sg
 
 # ==========================================
 # 🟡 Springer Nature (施普林格 & 自然)
@@ -9,10 +17,8 @@ DOMAIN-SUFFIX,springer.com
 DOMAIN-SUFFIX,springerlink.com
 DOMAIN-SUFFIX,springernature.com
 DOMAIN-SUFFIX,springeropen.com
-# ⚠️ Nature 也是他们家的，经常互相跳转，强烈建议加上
 DOMAIN-SUFFIX,nature.com
 DOMAIN-SUFFIX,biomedcentral.com
-# 静态资源 (加载图标、CSS样式用)
 DOMAIN-SUFFIX,springer-static.com
 
 # ==========================================
@@ -37,15 +43,15 @@ DOMAIN-SUFFIX,proquest.com
 # 🔵 ScienceDirect & Elsevier (爱思唯尔)
 # ==========================================
 DOMAIN-SUFFIX,sciencedirect.com
-# ⚠️ 加载 PDF 必须要有 assets
 DOMAIN-SUFFIX,sciencedirectassets.com 
 DOMAIN-SUFFIX,elsevier.com
 DOMAIN-SUFFIX,elsevier.io
 DOMAIN-SUFFIX,elsevier-a.akamaihd.net
 
 # ==========================================
-# 🎓 通用学术身份验证 (Institution Login)
+# 🎓 通用学术身份验证 & 资源
 # ==========================================
-# 很多学校机构登录会跳转这两个
 DOMAIN-SUFFIX,openathens.net
 DOMAIN-SUFFIX,shibboleth.net
+DOMAIN-SUFFIX,doi.org
+DOMAIN-SUFFIX,crossref.org
