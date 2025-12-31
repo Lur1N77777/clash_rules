@@ -1,1 +1,21 @@
+# 规则名称: WebOfScience
+# 规则描述: Web of Science 核心库、Clarivate 验证及 EndNote 等关联服务
+# 规则统计: 12
 
+# === 核心服务 (Core) ===
+DOMAIN-SUFFIX,webofscience.com
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,clarivate.cn
+
+# === 关联数据库与工具 (Related Tools) ===
+DOMAIN-SUFFIX,proquest.com
+DOMAIN-SUFFIX,endnote.com
+DOMAIN-SUFFIX,myendnoteweb.com
+DOMAIN-SUFFIX,publons.com
+DOMAIN-SUFFIX,researcherid.com
+
+# === 常见特定节点 (Specific Domains) ===
+DOMAIN,incites.clarivate.com
+DOMAIN,mjl.clarivate.com
+DOMAIN,access.clarivate.com
