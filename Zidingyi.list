@@ -1,6 +1,19 @@
-# 规则名称: Academic_Research
-# 规则描述: 包含 Web of Science, ScienceDirect (Elsevier) 及相关学术服务
-# 规则统计: 20+
+# 规则名称: Academic_Research_Plus
+# 规则描述: 包含 Web of Science, ScienceDirect, Springer Nature 及通用学术验证
+# 规则统计: 30+
+
+# ==========================================
+# 🟡 Springer Nature (施普林格 & 自然)
+# ==========================================
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,springerlink.com
+DOMAIN-SUFFIX,springernature.com
+DOMAIN-SUFFIX,springeropen.com
+# ⚠️ Nature 也是他们家的，经常互相跳转，强烈建议加上
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,biomedcentral.com
+# 静态资源 (加载图标、CSS样式用)
+DOMAIN-SUFFIX,springer-static.com
 
 # ==========================================
 # 🟢 Web of Science & Clarivate (科睿唯安)
@@ -24,13 +37,15 @@ DOMAIN-SUFFIX,proquest.com
 # 🔵 ScienceDirect & Elsevier (爱思唯尔)
 # ==========================================
 DOMAIN-SUFFIX,sciencedirect.com
-# ⚠️ 敲黑板：下面这个是加载 PDF 必须要有的！
+# ⚠️ 加载 PDF 必须要有 assets
 DOMAIN-SUFFIX,sciencedirectassets.com 
 DOMAIN-SUFFIX,elsevier.com
 DOMAIN-SUFFIX,elsevier.io
 DOMAIN-SUFFIX,elsevier-a.akamaihd.net
 
-# === 常见的学术身份验证 (通用) ===
-# 很多学校登录会跳转这几个
+# ==========================================
+# 🎓 通用学术身份验证 (Institution Login)
+# ==========================================
+# 很多学校机构登录会跳转这两个
 DOMAIN-SUFFIX,openathens.net
 DOMAIN-SUFFIX,shibboleth.net
