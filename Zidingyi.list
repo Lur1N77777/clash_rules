@@ -1,21 +1,36 @@
-# 规则名称: WebOfScience
-# 规则描述: Web of Science 核心库、Clarivate 验证及 EndNote 等关联服务
-# 规则统计: 12
+# 规则名称: Academic_Research
+# 规则描述: 包含 Web of Science, ScienceDirect (Elsevier) 及相关学术服务
+# 规则统计: 20+
 
-# === 核心服务 (Core) ===
+# ==========================================
+# 🟢 Web of Science & Clarivate (科睿唯安)
+# ==========================================
 DOMAIN-SUFFIX,webofscience.com
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,clarivate.cn
+DOMAIN,incites.clarivate.com
+DOMAIN,mjl.clarivate.com
+DOMAIN,access.clarivate.com
 
-# === 关联数据库与工具 (Related Tools) ===
-DOMAIN-SUFFIX,proquest.com
+# === EndNote & 关联工具 ===
 DOMAIN-SUFFIX,endnote.com
 DOMAIN-SUFFIX,myendnoteweb.com
 DOMAIN-SUFFIX,publons.com
 DOMAIN-SUFFIX,researcherid.com
+DOMAIN-SUFFIX,proquest.com
 
-# === 常见特定节点 (Specific Domains) ===
-DOMAIN,incites.clarivate.com
-DOMAIN,mjl.clarivate.com
-DOMAIN,access.clarivate.com
+# ==========================================
+# 🔵 ScienceDirect & Elsevier (爱思唯尔)
+# ==========================================
+DOMAIN-SUFFIX,sciencedirect.com
+# ⚠️ 敲黑板：下面这个是加载 PDF 必须要有的！
+DOMAIN-SUFFIX,sciencedirectassets.com 
+DOMAIN-SUFFIX,elsevier.com
+DOMAIN-SUFFIX,elsevier.io
+DOMAIN-SUFFIX,elsevier-a.akamaihd.net
+
+# === 常见的学术身份验证 (通用) ===
+# 很多学校登录会跳转这几个
+DOMAIN-SUFFIX,openathens.net
+DOMAIN-SUFFIX,shibboleth.net
