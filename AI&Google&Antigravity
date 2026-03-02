@@ -1,0 +1,66 @@
+⚪️ Antigravity (App 核心服务)
+==========================================
+DOMAIN-SUFFIX,antigravity.xyz
+DOMAIN-SUFFIX,antigravity.app
+DOMAIN-KEYWORD,antigravity
+DOMAIN,api.antigravity.xyz
+DOMAIN,static.antigravity.xyz
+DOMAIN,update.antigravity.xyz
+
+==========================================
+🔴 AI Giants (OpenAI, Claude, Gemini)
+==========================================
+--- OpenAI & ChatGPT ---
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN,https://www.google.com/search?q=api.openai.com
+
+--- Anthropic & Claude ---
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN,https://www.google.com/search?q=api.anthropic.com
+
+--- Google Gemini ---
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,aistudio.google.com
+
+==========================================
+🔵 Google Universe (Exclude YouTube)
+==========================================
+--- Google 核心与搜索 ---
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.ad
+DOMAIN-SUFFIX,google.ae
+DOMAIN-KEYWORD,google
+
+--- 基础服务与 CDN (不含 YouTube 专用) ---
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,https://www.google.com/search?q=googleusercontent.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,https://www.google.com/search?q=googletagmanager.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,https://www.google.com/search?q=gvt1.com
+DOMAIN-SUFFIX,https://www.google.com/search?q=ggpht.com
+
+--- Workspace & Cloud ---
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,https://www.google.com/search?q=googledrive.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,https://www.google.com/search?q=firebaseio.com
+DOMAIN-SUFFIX,cloud.google.com
+
+--- 系统与验证 ---
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,doubleclick.net
