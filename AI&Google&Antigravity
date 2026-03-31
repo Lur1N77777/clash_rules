@@ -20,8 +20,16 @@ DOMAIN,https://www.google.com/search?q=api.openai.com
 
 --- Anthropic & Claude ---
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN,https://www.google.com/search?q=api.anthropic.com
+
+DOMAIN,api.anthropic.com
+DOMAIN,platform.claude.com
+DOMAIN,docs.claude.com
+DOMAIN,support.claude.com
+DOMAIN,status.claude.com
+DOMAIN,status.anthropic.com
+DOMAIN,trust.anthropic.com
 
 --- Google Gemini ---
 DOMAIN-SUFFIX,gemini.google.com
